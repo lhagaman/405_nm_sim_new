@@ -1,0 +1,9 @@
+cd ~/Desktop/RAT_files/405_nm_sim
+
+python 405_nm_geo_generator.py
+
+cp 405_nm.geo ~/Desktop/RAT/rat-pac/data/405_nm
+
+rat photon_gun.mac
+
+
